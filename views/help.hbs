@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>HELP</title>
+        <link rel="stylesheet" href="css/mystyles.css">
+    </head>
+    <body>
+        {{> header}}
+        <form class="box" action="/help" method="get">
+            <section class="section is-medium">
+           
+            <br>
+
+                <div class="tile">
+                    <div class="tile is-vertical is-8">
+                        <div class="tile">
+                        <div class="tile is-parent is-vertical has-text-centered">
+                            <article class="tile is-child box is-black">
+                                <p class="title has-text-centered">HELP</p>
+                                <p class="title has-text-centered">____________________________</p>
+                                <br>
+                                <br>
+                                <p class="subtitle has-text-justified"> 
+                                    <strong> Home: </strong>Section of the main page of the app where you can find relevant information about the weather.
+                                    <br>
+                                    <strong> About: </strong>Section where you will find information about the types of weather.
+                                    <br>
+                                    <strong>Help: </strong>Section where the different views of the app are explained, as well as how it works.
+                                    <br>
+                                    <strong> Weather: </strong>Section where you can search for a specific place and see all the results of that place.
+                                    <br>
+                                    How to use the app?
+                                    <br>
+                                    1.- Go to the "Weather" section.
+                                    <br>
+                                    2.- Enter the place you want to search.
+                                    <br>
+                                    3.- Click on the "Search" button.
+                                    <br>
+                                    4.- Subsequently, it will visualize the results of the climate of that place, where an image will be loaded according to the type of climate of that place and also, some data about it will be broken down, such as temperature, precipitation, etc.</p>
+                            </article>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </form>
+    {{> footer}}
+    </body>
+</html>

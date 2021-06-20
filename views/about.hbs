@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>ABOUT</title>
+        <link rel="stylesheet" href="css/mystyles.css">
+    </head>
+    <body>
+        {{> header}}
+        <br>
+        <br>
+        <h3 class="title">Types of weather: </h3>
+        <br>
+        <form class="box" action="/about" method="get">
+            <section class="section is-medium">
+
+                <div class="tile is-ancestor">
+                    <div class="tile is-parent">
+                        <article class="tile is-child box has-text-centered">
+                            <figure class="image is-64x64 is-inline-block">
+                                <img src="/img/cold.png">
+                            </figure>
+
+                            <p class="title has-text-centered">____________________________</p>
+                            <br>
+                            <p class="title has-text-centered">Weather: COLD</p>
+                            <p class="title has-text-centered">____________________________</p>
+                            <br>
+                            <br>
+                            <p class="subtitle has-text-justified">It is one in which low temperatures predominate throughout the year, such as polar climates, mountain or tundra climates.</p>
+                        </article>
+                    </div>
+                    <div class="tile is-parent">
+                        <article class="tile is-child box has-text-centered">
+                            <figure class="image is-64x64 is-inline-block">
+                                <img src="/img/tempered.png">
+                            </figure>
+
+                            <p class="title has-text-centered">____________________________</p>
+                            <br>
+                            <p class="title has-text-centered">Weather: TEMPERED</p>
+                            <p class="title has-text-centered">____________________________</p>
+                            <br>
+                            <br>
+                            <p class="subtitle has-text-justified">Intermediate instance between hot and cold, with important variations according to the season and a lot of meteorological variability. Such as the humid subtropical climate, the Mediterranean, the oceanic and the continental.</p>
+                            </article>
+                    </div>
+                    <div class="tile is-parent">
+                        <article class="tile is-child box has-text-centered">
+                            <figure class="image is-64x64 is-inline-block">
+                                <img src="/img/warm.png">
+                            </figure>
+
+                            <p class="title has-text-centered">____________________________</p>
+                            <br>
+                            <p class="title has-text-centered">Weather: WARM</p>
+                            <p class="title has-text-centered">____________________________</p>
+                            <br>
+                            <br>
+                            <p class="subtitle has-text-justified">It is the one that presents higher temperatures more constantly, such as equatorial, tropical, arid subtropical, and desert and semi-desert climates.</p>
+                        </article>
+                    </div>
+                    </div>
+
+                    
+            </section>
+        </form>
+    {{> footer}}
+    </body>
+</html>

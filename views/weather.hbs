@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>WEATHER</title>
+        <link rel="stylesheet" href="css/mystyles.css">
+        <script src="/js/script.js" defer></script>
+    </head>
+    <body>
+        {{> header}}
+        
+                <div class="field">
+                    <br>
+                    <br>
+                    <label class="label">Country: </label>
+                    <div class="control">
+                    <input class="input is-small is-warning" style="width: 33%" type="text" placeholder="Location">
+                    <button id="submit" class="button is-black">Search</button>
+                    </div>
+                    <br>
+                    <br>
+                    <br>
+                    <section class="hero is-small is-black">
+                        <div class="hero-body">
+                            <p class="title has-text-centered">
+                            Results
+                            </p>
+                            <p class="subtitle has-text-centered">
+                            ______________________________________
+                            </p>
+                            <br>
+                            <figure class="image is-128x128" align="center">
+                                <img id="img" src="">
+                            </figure>
+                            <br>
+                            <span class="tag is-warning">Weather description:</span> <p id="message-1"></p>
+                            <br>
+                            <span class="tag is-warning">Temperature:</span> <p id="message-2"></p>
+                            <br>
+                            <span class="tag is-warning">Feelslike:</span><p id="message-3"></p>
+                            <br>
+                            <span class="tag is-warning">Precipitation:</span> <p id="message-4"></p>
+                        </div>
+                    </section>
+                    <br>
+                    <br>
+                    <label class="label"> </label>
+                </div>
+        
+    {{> footer}}
+    </body>
+</html>
